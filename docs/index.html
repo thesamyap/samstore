@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SamStore</title>
+	<link rel="icon" type="favicon/x-icon" href="img/icon.png">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<!--jQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!--Slider-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">	
+  	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  	<!--Type-->
+  	<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  	<!--Script-->
+  	<script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+<!--Header-->
+	<header id="header">
+		<div class="hcontent">
+			<div class="logo">
+				<h1>SamStore</h1>
+			</div>
+			<div class="boton">
+				<label for="btn-menu">Menú</label>
+			</div>
+			<input type="checkbox" id="btn-menu">
+			<nav class="menu">
+				<a href="">Inicio</a>
+				<a href="#cartas">Servicios</a>
+				<a href="#productos">Productos</a>
+				<a href="">Contacto</a>
+			</nav>
+		</div>
+	</header>
+
+<!--Slider-->
+	<div id="slider">
+		<div class="bxslider">
+			<div><img src="img/1.jpg" title="The afternoon street"></div>
+			<div><img src="img/2.jpg" title="Village"></div>
+		    <div><img src="img/3.jpg" title="Masion"></div>
+		    <div><img src="img/4.jpg" title="Beach"></div>
+		</div>
+	</div>
+
+<!--Content-->
+	<div class="container">
+
+		<section id="cartas">
+			<div class="card">
+				<figure>
+					<img src="img/11.jpg">
+				</figure>
+				<div class="cardtext">
+					<h3>Titulo</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+					<a href="#">Ver Más</a>
+				</div>
+			</div>
+			<div class="card">
+				<figure>
+					<img src="img/12.jpg">
+				</figure>
+				<div class="cardtext">
+					<h3>Titulo</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+					<a href="#">Ver Más</a>
+				</div>
+			</div>
+			<div class="card">
+				<figure>
+					<img src="img/13.jpg">
+				</figure>
+				<div class="cardtext">
+					<h3>Titulo</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+					<a href="#">Ver Más</a>
+				</div>
+			</div>
+			<div class="card">
+				<figure>
+					<img src="img/14.jpg">
+				</figure>
+				<div class="cardtext">
+					<h3>Titulo</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+					<a href="#">Ver Más</a>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<div class="container dark"><!--mobile-->
+		<section id="portada">
+			<div class="marco">
+				<div class="marcotext">
+					<h2 id="typewriter"></h2>
+				</div>
+				<figure class="marcoimg">
+					<img src="img/21.jpg">
+				</figure>
+			</div>
+		</section>
+	</div>
+
+	<!--Productos-->
+	<div>
+		<section id="productos">
+			<div class="caja-producto">
+				<div class="header-producto">
+					<h2>Computadoras</h2>
+				</div>
+				<div class="body-producto">
+					<div class="row">
+						<div class="item">
+							<a href="">
+								<div>
+									<img src="img/laptop1.jpeg">
+								</div>
+								<div>
+									<h3>Titulo de Laptop 1</h3>
+								</div>
+							</a>
+						</div>
+						<div class="item">
+							<a href="">
+								<div>
+									<img src="img/laptop2.jpg">
+								</div>
+								<div>
+									<h3>Titulo de Laptop 2</h3>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="item">
+							<a href="">
+								<div>
+									<img src="img/laptop4.jpg">
+								</div>
+								<div>
+									<h3>Titulo de Laptop 3</h3>
+								</div>
+							</a>
+						</div>
+						<div class="item">
+							<a href="">
+								<div>
+									<img src="img/laptop5.jpg">
+								</div>
+								<div>
+									<h3>Titulo de Laptop 4</h3>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="footer-producto">
+					<a href="">Ver Más</a>
+				</div>
+			</div>
+
+			<div class="caja-producto">
+				<div class="header-producto">
+					<h2>Videojuegos</h2>
+				</div>
+				<div class="body-producto">
+					<div class="row">
+						<div class="item">
+							<a href="">
+								<div>
+									<img src="img/juego2.jpg">
+								</div>
+								<div>
+									<h3>Titulo de Juego 1</h3>
+								</div>
+							</a>
+						</div>
+						<div class="item">
+							<a href="">
+								<div>
+									<img src="img/juego3.jpg">
+								</div>
+								<div>
+									<h3>Titulo de Juego 2</h3>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="item">
+							<a href="">
+								<div>
+									<img src="img/juego4.jpg">
+								</div>
+								<div>
+									<h3>Titulo de Juego 3</h3>
+								</div>
+							</a>
+						</div>
+						<div class="item">
+							<a href="">
+								<div>
+									<img src="img/juego5.jpg">
+								</div>
+								<div>
+									<h3>Titulo de Juego 4</h3>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="footer-producto">
+					<a href="">Ver Más</a>
+				</div>
+			</div>
+
+			<div class="caja-producto">
+				<div class="header-producto">
+					<h2>Peluches</h2>
+				</div>
+				<div class="body-producto">
+					<div class="row">
+						<div class="item">
+							<a href="">
+								<div>
+									<img src="img/peluche1.jpg">
+								</div>
+								<div>
+									<h3>Titulo de Peluche 1</h3>
+								</div>
+							</a>
+						</div>
+						<div class="item">
+							<a href="">
+								<div>
+									<img src="img/peluche5.jpg">
+								</div>
+								<div>
+									<h3>Titulo de Peluche 2</h3>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="item">
+							<a href="">
+								<div>
+									<img src="img/peluche3.jpg">
+								</div>
+								<div>
+									<h3>Titulo de Peluche 3</h3>
+								</div>
+							</a>
+						</div>
+						<div class="item">
+							<a href="">
+								<div>
+									<img src="img/peluche4.jpg">
+								</div>
+								<div>
+									<h3>Titulo de Peluche 4</h3>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="footer-producto">
+					<a href="">Ver Más</a>
+				</div>
+			</div>
+		</section>
+	</div>
+
+
+	<div id="header-ofertas">
+		<h2>
+			Ofertas de la semana...
+		</h2>
+	</div>
+	<div class="scroll-container">
+		<section id="ofertas">
+			<div class="container-oferta">
+				<div class="item-oferta">	
+					<div class="img-oferta"><img src="img/peluche2.png"></div>
+					<div class="body-oferta">
+						<h3>Hedgin-Peluche</h3>
+						<p class="tachado">$500</p>
+						<span class="precio-oferta">$250</span>
+					</div>
+					<div class="info-oferta">
+						<h4>Hedwin</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						</p>
+						<a href="" class="enlace">Ver Más</a>
+					</div>	
+				</div>
+				<div class="item-oferta">	
+					<div class="img-oferta"><img src="img/laptop3.png"></div>
+					<div class="body-oferta">
+						<h3>Dell-Laptop</h3>
+						<p class="tachado">$12,000</p>
+						<span class="precio-oferta">$8,500</span>
+					</div>
+					<div class="info-oferta">
+						<h4>Dell-inspiron 3000</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						</p>
+						<a href="" class="enlace">Ver Más</a>
+					</div>	
+				</div>
+				<div class="item-oferta">	
+					<div class="img-oferta"><img src="img/oferta1.png"></div>
+					<div class="body-oferta">
+						<h3>Jenga</h3>
+						<p class="tachado">$220</p>
+						<span class="precio-oferta">$180</span>
+					</div>
+					<div class="info-oferta">
+						<h4>Jenga-35pz</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						</p>
+						<a href="" class="enlace">Ver Más</a>
+					</div>	
+				</div>
+				<div class="item-oferta">	
+					<div class="img-oferta"><img src="img/oferta2.png"></div>
+					<div class="body-oferta">
+						<h3>Dualshock 4</h3>
+						<p class="tachado">$1500</p>
+						<span class="precio-oferta">$1280</span>
+					</div>
+					<div class="info-oferta">
+						<h4>Dualshock4-v2</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						</p>
+						<a href="" class="enlace">Ver Más</a>
+					</div>	
+				</div>
+				<div class="item-oferta">	
+					<div class="img-oferta"><img src="img/oferta3.jpg"></div>
+					<div class="body-oferta">
+						<h3>Gato-Peluche</h3>
+						<p class="tachado">$450</p>
+						<span class="precio-oferta">$287</span>
+					</div>
+					<div class="info-oferta">
+						<h4>Gato-Decorativo</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						</p>
+						<a href="" class="enlace">Ver Más</a>
+					</div>	
+				</div>
+				<div class="item-oferta">	
+					<div class="img-oferta"><img src="img/oferta4.png"></div>
+					<div class="body-oferta">
+						<h3>JeanBook-Cuaderno</h3>
+						<p class="tachado">$75</p>
+						<span class="precio-oferta">$45</span>
+					</div>
+					<div class="info-oferta">
+						<h4>JeanBook-Cuadriculado 7mm</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						</p>
+						<a href="" class="enlace">Ver Más</a>
+					</div>	
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<div>
+		<section id="productos">
+			<div class="caja-producto">
+				<div class="header-producto">
+					<h2>Discos</h2>
+				</div>
+				<div class="body-producto">
+					<div class="row">
+						<div class="item">
+							<a href="">
+								<div>
+									<img src="img/musica1.jpg">
+								</div>
+								<div>
+									<h3>Titulo del CD 1</h3>
+								</div>
+							</a>
+						</div>
+						<div class="item">
+							<a href="">
+								<div>
+									<img src="img/musica2.jpeg">
+								</div>
+								<div>
+									<h3>Titulo del CD 2</h3>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="item">
+							<a href="">
+								<div>
+									<img src="img/musica3.jpg">
+								</div>
+								<div>
+									<h3>Titulo del CD 3</h3>
+								</div>
+							</a>
+						</div>
+						<div class="item">
+							<a href="">
+								<div>
+									<img src="img/musica4.jpg">
+								</div>
+								<div>
+									<h3>Titulo del CD 4</h3>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="footer-producto">
+					<a href="">Ver Más</a>
+				</div>
+			</div>
+
+			<div class="caja-producto">
+				<div class="header-producto">
+					<h2>Hogar</h2>
+				</div>
+				<div class="body-producto">
+					<div class="row">
+						<div class="item">
+							<a href="">
+								<div>
+									<img src="img/hogar1.jpg">
+								</div>
+								<div>
+									<h3>Titulo de Hogar 1</h3>
+								</div>
+							</a>
+						</div>
+						<div class="item">
+							<a href="">
+								<div>
+									<img src="img/hogar2.jpg">
+								</div>
+								<div>
+									<h3>Titulo de Hogar 2</h3>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="item">
+							<a href="">
+								<div>
+									<img src="img/hogar3.png">
+								</div>
+								<div>
+									<h3>Titulo de Hogar 3</h3>
+								</div>
+							</a>
+						</div>
+						<div class="item">
+							<a href="">
+								<div>
+									<img src="img/hogar4.jpg">
+								</div>
+								<div>
+									<h3>Titulo de Hogar 4</h3>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="footer-producto">
+					<a href="">Ver Más</a>
+				</div>
+			</div>
+
+			<div class="caja-producto">
+				<div class="header-producto">
+					<h2>Peludos!</h2>
+				</div>
+				<div id="mascotas" class="body-producto">
+					
+						<div class="item">
+							<a href="">
+								<div>
+									<img src="img/gog.jpg">
+								</div>
+								<div>
+									<h3>Articulos para tu amigo!</h3>
+								</div>
+							</a>
+						</div>
+				</div>
+				<div class="footer-producto">
+					<a href="">Ver Más</a>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<div id="header-ofertas">
+		<h2>
+			Hogar inteligente
+		</h2>
+	</div>
+	<div class="scroll-container">
+		<section id="ofertas">
+			<div class="container-oferta hogar">
+
+				<div class="producto-hogar">	
+					<a href="">
+						<div id="item-iluminacion"class="back-hogar">
+							<h1>Ilumación</h1>
+						</div>
+					</a>
+				</div>
+				<div class="producto-hogar">	
+					<a href="">
+						<div id="item-aspidora" class="back-hogar">
+							<h1>Aspiradoras</h1>
+						</div>
+					</a>
+				</div>
+				<div class="producto-hogar">	
+					<a href="">
+						<div id="item-lock"class="back-hogar">
+							<h1>Cerraduras</h1>
+						</div>
+					</a>
+				</div>
+				<div class="producto-hogar">	
+					<a href="">
+						<div id="item-enchufes" class="back-hogar">
+							<h1>Enchufes</h1>
+						</div>
+					</a>
+				</div>
+				<div class="producto-hogar">	
+					<a href="">
+						<div id="item-asistente" class="back-hogar">
+							<h1>Asistentes</h1>
+						</div>
+					</a>
+				</div>
+
+				<div class="producto-hogar">	
+					<a href="">
+						<div id="item-persiana" class="back-hogar">
+							<h1>Persianas</h1>
+						</div>
+					</a>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<section id="contacto">
+		<div class="contenedor">
+			<h2>Contactanos!</h2>
+			<div class="row74">
+				<div class="col-contact">
+					<div class="inputBox">
+						<input type="text" name="" required="required">
+						<span class="text-contact">Nombre</span>
+						<span class="line"></span>
+					</div>
+				</div>
+				<div class="col-contact">
+					<div class="inputBox">
+						<input type="text" name="" required="required">
+						<span class="text-contact">Apellido</span>
+						<span class="line"></span>
+					</div>
+				</div>
+				<div class="col-contact">
+					<div class="inputBox">
+						<input type="text" name="" required="required">
+						<span class="text-contact">Email</span>
+						<span class="line"></span>
+					</div>
+				</div>
+				<div class="col-contact">
+					<div class="inputBox">
+						<input type="text" name="" required="required">
+						<span class="text-contact">Telefono</span>
+						<span class="line"></span>
+					</div>
+				</div>
+			</div>
+
+			<div class="row74">
+				<div class="col-contact">
+					<div class="inputBox textarea">
+						<textarea required="required"></textarea>
+						<span class="text-contact">Escribe tu mensaje aquí</span>
+						<span class="line"></span>
+					</div>
+				</div>
+			</div>
+
+			<div class="row74">
+				<div class="col-contact">
+					<input type="submit" value="Enviar">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="backtoup">
+      	<a href="#">Subir</a>
+  	</div>
+
+	<footer id="footer">
+		<div class="wrap">
+			<div id="mapa">
+				<h5>¿DONDE ESTAMOS?</h5>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60233.675896072564!2d-99.15821892089845!3d19.342950400000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fe325ea3f419%3A0x23cc77a214275ea7!2sPARQUE%20MASAYOSHI%20OHIRA!5e0!3m2!1ses-419!2smx!4v1614821624029!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			</div>
+			<div id="social">
+				<h5>VISITANOS EN:</h5>
+				<p id="paginas">
+					<a href="#">
+						<img src="img/facebook.png" alt="Facebook" title="Facebook" />
+					</a>
+					<a href="#">
+						<img src="img/twitter.png" alt="Twitter" title="Twitter" />
+					</a>
+					<a href="#">
+						<img src="img/linkedin.png" alt="Linkedin" title="Linkedin" />
+					</a>
+				</p>
+				
+			</div>
+		</div>
+		<div id="infooter">
+			<h5>AUTOR</h5>
+			<p>SamStore&copy;  Samuel Peniche</p>
+		</div>
+	</footer>
+
+</body>
+</html>
